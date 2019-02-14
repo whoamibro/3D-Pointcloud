@@ -19,9 +19,6 @@ class Block_Matching():
 
     def MSE(self, img1data, img2data):
         difference = np.subtract(img1data, img2data, dtype=np.int16)
-        # loss = 0
-        # for i in range(len(img1data)):
-        #     loss += ((difference[i])**2)
         loss = np.sum(difference**2)
         return loss / (len(img1data)**2)
 
@@ -35,12 +32,6 @@ class Block_Matching():
     def NCC(self, img1data, img2data):
         mean1 = np.mean(img1data, dtype=np.int16)
         mean2 = np.mean(img2data, dtype=np.int16)
-
-        # denominator = 0
-        # numerator = 0
-        # for i in range(len(img1data)):
-        #     denominator += ((img1data[i]-mean1)*(img2data[i]-mean2))
-        #     numerator += (((img1data[i]-mean1)**2)*((img2data[i]-mean2)**2))
 
         i1feature = (img1data-mean1)/math.sqrt(np.sum(img1data-mean1)**2)
         i2feature = (img2data-mean2)/math.sqrt(np.sum(img2data-mean2)**2)
@@ -152,6 +143,9 @@ def main():
         pass
 
 if __name__ =="__main__":
+    # disparity_map = np.load("SAD7.npy")
+    # plt.imshow(disparity_map, 'gist_heat')
+    # plt.show()
     main()
 
 
