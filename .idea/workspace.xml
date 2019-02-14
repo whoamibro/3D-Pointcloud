@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Stereo_Matching.py" line="117" />
+    <bookmark url="file://$PROJECT_DIR$/Stereo_Matching.py" line="113" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13511359-a627-405e-9214-3cde61d11222" name="Default Changelist" comment="" />
+    <list default="true" id="13511359-a627-405e-9214-3cde61d11222" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stereo_Matching.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stereo_Matching.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +17,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/3D_Reconstruction$Extracting_Points.coverage" NAME="Extracting_Points Coverage Results" MODIFIED="1548758042948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/3D_Reconstruction$Make_Animation.coverage" NAME="Make_Animation Coverage Results" MODIFIED="1548918113233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/3D_Reconstruction$Stereo_Matching.coverage" NAME="Stereo_Matching Coverage Results" MODIFIED="1550036886015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3D_Reconstruction$Stereo_Matching.coverage" NAME="Stereo_Matching Coverage Results" MODIFIED="1550067768752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/3D_Reconstruction$PointCloud_3d_Reconstruction.coverage" NAME="PointCloud_3d_Reconstruction Coverage Results" MODIFIED="1549871216115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -22,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Extracting_Points.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="665">
               <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -34,20 +37,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Stereo_Matching.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="124" column="89" lean-forward="true" selection-start-line="124" selection-start-column="89" selection-end-line="124" selection-end-column="89" />
+            <state relative-caret-position="-1904">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PointCloud_3d_Reconstruction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -109,6 +103,18 @@
               <item name="3D_Reconstruction" type="462c0819:PsiDirectoryNode" />
               <item name="asset" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="3D_Reconstruction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3D_Reconstruction" type="462c0819:PsiDirectoryNode" />
+              <item name="asset" type="462c0819:PsiDirectoryNode" />
+              <item name="matching" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3D_Reconstruction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3D_Reconstruction" type="462c0819:PsiDirectoryNode" />
+              <item name="asset" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -118,18 +124,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/asset/result" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\YJJEON\Desktop\3D_Reconstruction\asset\matching" />
-      <recent name="C:\Users\YJJEON\Desktop\3D_Reconstruction\asset\color" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\YJJEON\Desktop\3D_Reconstruction\asset" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\YJJEON\Desktop\3D_Reconstruction\asset\result" />
+      <recent name="C:\Users\YJJEON\Desktop\3D_Reconstruction\asset\matching" />
+      <recent name="C:\Users\YJJEON\Desktop\3D_Reconstruction\asset\color" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -256,36 +263,38 @@
       <workItem from="1548734093351" duration="59925000" />
       <workItem from="1549505685077" duration="53960000" />
       <workItem from="1549932285252" duration="4272000" />
-      <workItem from="1549943143458" duration="24853000" />
+      <workItem from="1549943143458" duration="42290000" />
+      <workItem from="1550105488017" duration="3129000" />
+      <workItem from="1550110893366" duration="1922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143203000" />
+    <option name="totallyTimeSpent" value="165691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.118336886" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61353946" weight="0.38177875" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6067335" weight="0.4380054" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5074627" side_tool="true" visible="true" weight="0.5097614" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49253732" visible="true" weight="0.5097614" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4946695" weight="0.2494577" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.28944564" side_tool="true" visible="true" weight="0.31344903" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.71055436" visible="true" weight="0.31344903" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49253732" weight="0.2483731" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.4184435" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.37313432" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -305,17 +314,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/images2gif/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/disparity_graph.gif" />
-    <entry file="file://$PROJECT_DIR$/disparity_graph_cbc.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/disparity_graph_cbc.gif" />
     <entry file="file://$PROJECT_DIR$/Make_Animation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -329,20 +328,32 @@
     <entry file="file://$PROJECT_DIR$/asset/color/color.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/disparity_hist.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/disparity_hist.png" />
     <entry file="file://$PROJECT_DIR$/Main.py" />
     <entry file="file://$PROJECT_DIR$/PointCloud.py" />
     <entry file="file://$PROJECT_DIR$/Block_Matcher.py" />
     <entry file="file://$PROJECT_DIR$/CalibratedPair.py" />
     <entry file="file://$PROJECT_DIR$/Calibration.py" />
-    <entry file="file://$PROJECT_DIR$/asset/matching/left.png">
+    <entry file="file://$PROJECT_DIR$/PointCloud_3d_Reconstruction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disparity_graph.gif">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="65" column="50" lean-forward="true" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Extracting_Points.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="665">
           <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -350,17 +361,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PointCloud_3d_Reconstruction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/asset/result/sad7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/matching/left.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Stereo_Matching.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="124" column="89" lean-forward="true" selection-start-line="124" selection-start-column="89" selection-end-line="124" selection-end-column="89" />
+        <state relative-caret-position="-1904">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
