@@ -15,6 +15,7 @@
    1) focal length
    2) baseline length
    3) disparith map matrix
+ 
  => result will be stored in code's current folder path
    
 if you want to see the sample result go the asset/result folder 
