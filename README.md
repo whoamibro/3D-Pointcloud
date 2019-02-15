@@ -7,6 +7,7 @@
    3) NCC function
    4) SSD function
    5) CENSUS function
+ 
  => result will be stored in code's current folder path
    
 2. Calculate the Depth Map
