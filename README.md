@@ -18,5 +18,5 @@
  
  => result will be stored in code's current folder path
    
-if you want to see the sample result go the asset/result folder 
+if you want to see the sample result goto the asset/result folder 
 Thanks.
